@@ -110,9 +110,9 @@ async function deleteTodo(id) {
   loadView();
 }
 
-function logout() {
+function logout(){
   window.localStorage.removeItem('access_token');
-  window.location.href = "index.html";
+  window.location.href ="index.html";
 }
 
 async function createTodo(event){
